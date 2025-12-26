@@ -1,0 +1,14 @@
+# CodeBlocks build folders
+bin/
+obj/
+
+# CodeBlocks generated files
+*.depend
+*.layout
+
+# Executables (Windows)
+*.exe
+
+# Optional: backup files CodeBlocks sometimes makes
+*.bak
+
