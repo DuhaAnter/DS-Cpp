@@ -82,18 +82,14 @@ public:
             items[1] = items[rear];
             rear=1;
         }
-
-        if(frnt == -1 ) //first element
+         //first element to enter the queue
+        if(frnt == -1 )
         {
             frnt++;
         }
-
+        // normal behavior of EnQueue
         rear++;
         items [rear] = data;
-
-
-
-
         return 1; //true
 
 
